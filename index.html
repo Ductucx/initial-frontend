@@ -22,14 +22,14 @@
         <form action="#">
             <div class="itemform">
                 <label for="nick">Introduce tu nick</label>
-                <input type="text" name="nick" id="nick">
+                <input type="text" name="nick" id="nick" value="@" required>
             </div>
             <div class="itemform">
                 <label for="tamaño">Tamaño del juego</label>
                 <select name="tamaño" id="tamaño">
-                    <option value="value1">Elige un tamaño</option>
-                    <option value="value1">4x4</option>
-                    <option value="value1">5x5</option>
+                    <option value="value1" hidden>--- Elige un tamaño ---</option>
+                    <option value="value2">4x4</option>
+                    <option value="value3">5x5</option>
                 </select>
             </div>
             <div>
