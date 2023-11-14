@@ -31,6 +31,10 @@ input{
     padding: 10px;
 }
 
+.almoadilla{
+    color: red;
+}
+
 label{
     vertical-align: 10px;
 }
